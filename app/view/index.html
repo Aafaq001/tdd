@@ -81,13 +81,13 @@
 										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LEAFIX</a>
 										<ul class="dropdown-menu">
 											<li class="nav-item">
-												<a class="nav-link" href="sign_in.aspx">Leafix APPLE</a>
+												<a class="nav-link" href="https://classifier-yosp.onrender.com/">Leafix APPLE</a>
 											</li>
 											<li class="nav-item">
 												<a class="nav-link" href="#">Leafix TOMATO</a>
 											</li>
                                             <li class="nav-item">
-												<a class="nav-link" href="#">Leafix MAIZE</a>
+												<a class="nav-link" href="https://maize-dd-5kfp.onrender.com/">Leafix MAIZE</a>
 											</li>
                                             <li class="nav-item">
 												<a class="nav-link" href="Cure.aspx">Leafix CURE</a>
@@ -147,9 +147,9 @@
 <p id="demo"></p>
 <div class="container" style="margin-top: 80px">
   <div class='center'>
-    <div class='title'>Apple Disease Detection</div>
+    <div class='title'>TOMATO Disease Detection</div>
     <p>
-      Use images of Apple <strong style="color:black;font-size:17px">Scab</strong>, <strong style="color:black;font-size:17px">Cedar </strong> Apple <strong style="color:black;font-size:17px"> Rust</strong> , Apple <strong style="color:black;font-size:17px">Healthy</strong>
+      Use images of Tomato <strong style="color:black;font-size:17px">Late Blight</strong>,Tomato <strong style="color:black;font-size:17px">Becterial Leaf Spot</strong>, Tomato<strong style="color:black;font-size:17px"> Mosaic Virus</strong> & Tomato <strong style="color:black;font-size:17px">Healthy</strong>
     </p>
 
 
@@ -271,18 +271,21 @@ function redirect() {
 var ris = document.getElementById('result-label').innerHTML;
 
 
-   if(ris == "Result = Apple___Apple_scab") {
- location.replace("https://drive.google.com/uc?export=download&id=1yI0Hz-XPIbliCqDljeM6tm2TbaAoDooN")
+   if(ris == "Result = Tomato___Tomato_mosaic_virus") {
+ location.replace("https://drive.google.com/uc?export=download&id=1eJ89mYGCQmG54MOxXb7zLvrqu-Kz2Brp")
 window.print();
    }
 
-else if(ris == "Result = Apple___Cedar_apple_rust") {
- location.replace("https://drive.google.com/uc?export=download&id=1Kzr9RBa3LsvuG1aTvW8hYUgmxkvWmh1h")
+else if(ris == "Result = Tomato___Late_blight") {
+ location.replace("https://drive.google.com/uc?export=download&id=1PzBuI3IKIKHL8TCHUk93AgD_bA9d0bHj")
 window.print();
    }
+   else if(ris == "Result = Tomato___Bacterial_spot") {
+    location.replace("https://drive.google.com/uc?export=download&id=1DwPDLYI5XzpAFOgNFoP4ZnInIwD-IPUt")
+   window.print();
+      }
 
-}
-</script>
+}</script>
 
 	<!--================ Optional JavaScript =================-->
 	<!--================ jQuery first, then Popper.js, then Bootstrap JS =================-->
